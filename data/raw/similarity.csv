@@ -1,0 +1,321 @@
+﻿CW,String,Dominance Score,Alternative Dominance Score from Armstrong et al. (2012) EDOM,Similarity Norming Category,Zeugmatic Similarity Norming Sentence,Anaphora,Similarity Mean,Similarity STDEV,Similarity SEM
+AMAZON,AMAZON,0.57,,H,Adventurers trekked the Amazon and online retailers sold products there.,there,1.48,1.02,0.11
+ARMS,ARMS,0.75,,H,The weary soldiers lay down their arms and my brothers got tattoos on theirs.,theirs,2.42,1.87,0.2
+BAND,BAND,0.73,,H,The teenagers formed a band and the married man wore one.,one,1.58,1.04,0.11
+BARK,BARK,0.26,,H,The trees had a rough bark and the poodle had a loud one.,one,1.31,0.82,0.09
+BASS,BASS,0.69,,H,The fisherman caught the bass and the musician played one.,one,1.34,0.79,0.08
+BAT,BAT,0.51,,H,The player swung a bat and the vampire was bit by one.,one,1.6,1.36,0.15
+BATTER,BATTER,0.66,,H,The catcher tagged the batter and the baker mixed some.,some,1.34,0.93,0.1
+BILL,BILLS,0.28,,H,There are two Bills in my class and some in my wallet.,some,1.63,1.24,0.13
+BLUFF,BLUFF,0.68,,H,The poker player called the bluff and the weapons were positioned on one.,one,1.58,0.85,0.09
+BOND,BOND,0.42,,H,Super Glue creates a bond and Sean Connery played him in the movies.,him,1.41,0.87,0.09
+BOW,BOW,0.05,,H,The archer shot the bow and the kindergartner practiced tying one.,one,1.69,1.1,0.12
+BOWLER,BOWLER,0.78,,H,My uncle was a bowler and the English gentleman wore one.,one,1.63,1.18,0.13
+BRUSH,BRUSH,Not normed,0.51,H,The hikers got lost in the brush and I detangled my hair with one.,one,1.65,1.15,0.12
+BUCK,BUCK,Not normed,0.54,H,The customer paid a buck and the hunter shot one.,one,1.31,0.7,0.07
+BUD,BUD,0.56,,H,The flower sprouted a bud and the drunk dude drank one.,one,1.26,0.63,0.07
+CALF,CALF,0.33,,H,The goalie kicked my calf and the cow birthed one.,one,1.32,0.7,0.08
+CASE,CASE,0.35,,H,The lawyer appealed a case and the wine connoisseur bought one.,one,1.5,0.92,0.1
+COLON,COLON,0.64,,H,The cancer spread to the colon and the grammar editor added one.,one,1.28,0.69,0.07
+CORN,CORN,0.29,,H,*The foot doctor examined my corn and the farmer picked some.,some,1.5,1.16,0.12
+COUNT,COUNT,0.57,,H,The Englishman bowed to the count and the election board tallied it.,it,1.76,1.22,0.13
+COUNTER,COUNTER,0.56,,H,The realtor responded to the counter and the clerk leaned on one.,one,1.88,1.38,0.15
+CRAB,CRAB,Not normed,0.52,H,My grumpy sister was a crab and the fisherman netted one.,one,2.35,1.33,0.14
+CRICKET,CRICKET,0.64,,H,The Brits played cricket and the bug collector caught one.,one,1.44,0.87,0.09
+CUE,CUE,0.7,,H,The pool player grabbed a cue and the stage actor waited for hers.,hers,1.66,1,0.11
+FAN,FANS,0.67,,H,The store was cooled by fans and the rockstar was pestered by them.,them,1.82,1.41,0.15
+GAG,GAG,0.69,,H,"The prank was a gag and the kidnapper's handkerchief was one, too.",one,2.05,1.45,0.15
+GLARE,GLARE,0.5,,H,The oncoming headlights caused a glare and my brother shot me one.,one,2.24,1.31,0.14
+LAP,LAPS,0.56,,H,The children sat on our laps and the runners ran several of them.,them,1.42,1.05,0.11
+LEAD,LEAD,0.22,,H,The fast runner took the lead and the one in the pencil broke.,one,1.31,0.75,0.08
+LEAN,LEAN,0.42,,H,The dieter ate only lean and the engineers corrected the one in the structure.,one,1.31,0.81,0.09
+LIMBO,LIMBO,Not normed,0.67,H,Indecision left the businessman in limbo and the kids on skates danced one.,one,1.94,1.34,0.14
+MARCH,MARCH,0.52,,H,His birthday was in March and the protestors attended one.,one,1.38,0.82,0.09
+MASS,MASS,0.69,,H,Priests performed the mass and scientists quantified it.,it,1.51,1.09,0.12
+MATCH,MATCH,0.13,,H,The smoker lit a match and the soccer team played one.,one,1.42,0.99,0.11
+METER,METER,Not normed,0.36,H,The distance was a meter and we put some coins in one.,one,1.7,1.41,0.15
+MINE,MINE,0.11,,H,The book was mine and the coal worker dug in one.,one,1.22,0.6,0.06
+MINT,MINT,*0.96,0.52,H,Most coins are produced at the mint and tea is flavored with it.,it,1.47,1.12,0.12
+MISS,MISS,0.18,,H,Every basketball shot was a miss and the young lady was one.,one,1.41,0.93,0.1
+MOLD,MOLD,0.79,,H,Mildew spray removed the mold and concrete was poured into one.,one,1.69,1.28,0.14
+MOLE,MOLE,0.12,,H,The dermatologist discovered a mole and the gardener trapped one.,one,1.45,0.91,0.1
+MUSTANG,MUSTANG,0.46,,H,The auto dealer sold a Mustang and the horse rancher tamed one.,one,2.01,1.2,0.13
+NET,NET,Not normed,0.57,H,The accountant calculated the net and the tightrope walker worked without one.,one,1.47,0.87,0.09
+NIRVANA,NIRVANA,0.16,,H,The yogi reached a state of Nirvana and the guitarist was a fan of them.,them,2.03,1.19,0.13
+PALM,PALMS,0.15,,H,The landscape crew trimmed the palms and the fortune teller read ours.,ours,1.52,1.23,0.13
+PIT,PIT,*0.80,0.61,H,He gnawed the plum to the pit and threw some charcoal in one.,one,1.67,1.12,0.12
+PITCH,PITCH,0.18,,H,The batter swung at the pitch and the musicians tried matching it.,it,1.49,0.99,0.11
+PITCHER,PITCHER,0,,H,Strikes were thrown by the pitcher and water poured from it.,it,1.44,0.96,0.1
+POACH,POACHED,0.05,,H,*The rhinoceros was poached by hunters and the eggs by the chef.,chef,,,
+POOL,POOL,*0.91,0.4,H,The billiards expert played pool and the children swam in one.,one,1.51,0.99,0.11
+PORT,PORT,*0.82,0.36,H,The wine connoisseur drank the port and the cruise ship entered one.,one,1.59,1.05,0.11
+POST,POST,0.41,,H,On Facebook she liked the post and the mailman gathered letters from it.,it,2.08,1.3,0.14
+POT,POT,0.55,,H,She smoked a little pot and warmed the sauce in one.,one,1.32,0.78,0.08
+POUND,POUNDS,0.59,,H,The Englishman paid five pounds and my puppy weighed that.,that,1.97,1.47,0.16
+PRESENT,PRESENT,0.32,,H,He tried living in the present and she wrapped it.,it,1.43,0.78,0.08
+PUNCH,PUNCH,0.4,,H,The partygoer sipped the punch and the boxer threw one.,one,1.53,1.11,0.12
+PUPIL,PUPIL,0.37,,H,The teacher questioned the pupil and the optometrist dilated one.,one,1.52,1.09,0.12
+QUACK,QUACK,0.77,,H,The duck let out a quack and the fake doctor was one.,one,1.57,0.94,0.1
+RACE,RACE,0.3,,H,The woman's race was Caucasian and the runner ran one.,one,1.4,1.03,0.11
+RACKET,RACKET,0.58,,H,The tennis player tried a racket and the loud neighbors were making one.,one,1.63,0.89,0.09
+RARE,RARE,*0.84,0.45,H,"His grilled steak was rare and the antique coin was rare, too.",rare,1.6,1.1,0.12
+RING,RING,0.79,,H,The bell let out a ring and her fiancée bought one.,one,1.72,1.2,0.13
+ROCK,ROCK,0.49,,H,The concert goers listened to rock and the landscaper designed with it.,it,1.58,1,0.11
+SEAL,SEALS,0.67,,H,The Navy deployed the seals and at the beach one flicked its tail.,one,1.5,0.84,0.09
+SECOND,SECOND,0.37,,H,The first battery was replaced by a second and the runner was beat by one.,one,2.18,1.66,0.18
+SPADE,SPADE,0.66,,H,The gardener used a spade and the poker player drew one.,one,2.15,1.52,0.16
+STALL,STALL,0.47,,H,The group's delay tactic was a stall and the horse was kept in one.,one,1.74,1.47,0.16
+STAPLE,STAPLE,Not normed,0.59,H,The papers were fastened by a staple and for college students ramen is one.,one,1.53,0.9,0.1
+STUD,STUD,Not normed,0.52,H,He hammered the nail into a stud and my muscular boyfriend was one.,one,1.74,1.28,0.14
+SUBWAY,SUBWAY,0.33,,H,We ordered sandwiches from Subway and the commuters rode on one.,one,1.43,0.97,0.1
+SWALLOW,SWALLOW,0.69,,H,In the nest there was a swallow and I opened the medicine bottle and took one.,one,1.31,0.88,0.09
+TAG,TAG,0.59,,H,The children played tag and the new shirt still had one.,one,1.56,1.04,0.11
+TART,TART,0.13,,H,She preferred sweet lemonade to tart and the pastry chef baked one.,one,3.2,1.83,0.19
+TEAR,TEAR,0.56,,H,The girl shed a tear and the faded jeans had one.,one,1.48,0.97,0.1
+TEMPLE,TEMPLE,0.79,,H,For holy holidays she visits her temple and for headaches she massages it.,it,1.49,1.03,0.11
+TICK,TICK,0.52,,H,The clock emitted a tick and the hiker was bit by one.,one,1.39,0.79,0.08
+TIP,TIP,*0.84,0.26,H,He cut his finger on the tip and the restaurant bill didn't include one.,one,1.28,0.5,0.05
+VAULT,VAULT,Not normed,0.6,H,The American gymnast medaled in vault and the banker put money in one.,one,1.49,1.05,0.11
+VET,VET,0.5,,H,Our cat was treated by a vet and the military agency was run by one.,one,1.69,1.15,0.12
+WILL,WILL,0.03,,H,The attorney read a will and the exhausted hiker had none.,none,2,1.29,0.14
+YARD,YARD,0.52,,H,The quarterback ran for a yard and the rental house had one.,one,1.99,1.37,0.15
+ADMIT,ADMITTED,0.22,,IP,"The truth was admitted and the law students were admitted, too.",admitted,2.42,1.39,0.15
+ANSWER,ANSWER,0.15,,IP,She never got an answer for her question or one for the math problem.,one,5.99,1.25,0.13
+APPEAL,APPEAL,0.42,,IP,Her personal style has an appeal and the defendant was granted one.,one,1.91,1.45,0.15
+BALANCE,BALANCE,0.55,,IP,With the weights there was a balance and also one with checking account.,one,2.1,1.21,0.13
+BAR,BAR,0.69,,IP,A man was seated at the bar and between classes I ate one.,one,1.69,1.21,0.13
+BASE,BASE,0.42,,IP,The base of the tree was rotted and the outfielder tagged one.,one,1.77,1.03,0.11
+BEAM,BEAM,0.28,,IP,The roof was supported by a beam and one shone through my window.,one,2.22,1.48,0.16
+BITTERNESS,BITTERNESS,0.4,,IP,"The prisoner had some bitterness and the coffee had some, too.",some,3.28,1.46,0.16
+BRASS,BRASS,0.19,,IP,"The marching band was mostly brass and the light fixtures were brass, too.",brass,3.23,1.73,0.18
+BREAK,BREAK,0.04,,IP,Employers recommend workers get a break and X-rays showed I had one.,one,1.72,0.97,0.1
+CABINET,CABINET,0.69,,IP,The President met with his cabinet and we put cups in ours.,ours,1.53,1.06,0.11
+CARDINAL,CARDINAL,0.69,,IP,The Pope appointed a cardinal and we spotted one in a nest.,one,1.68,1.27,0.14
+CAST,CAST,0.43,,IP,The audience applauded members of the cast and the doctor removed mine.,mine,1.38,0.91,0.1
+CHANGE,CHANGE,0.69,,IP,We adapted to the change and the store clerk counted it.,it,1.63,1.23,0.13
+CHARACTER,CHARACTER,0.66,,IP,Impatience is a flaw in her character and little dialogue was spoken by mine.,mine,3.32,1.79,0.19
+CHARM,CHARM,0.23,,IP,My Southern grandma is known for her charm and Sienna's bracelet had one.,one,1.85,1.09,0.12
+CHECK,CHECK,0.63,,IP,The mechanic performed a check and the renter wrote one.,one,1.45,0.97,0.1
+CLOG,CLOGS,0.4,,IP,The woman wore clogs and the plumber unstopped them.,them,1.48,1.07,0.11
+COLUMN,COLUMN,0.16,,IP,The porch was supported by a column and the numbers were listed in one.,one,2.42,1.3,0.14
+CORE,CORE,0.09,,IP,They drilled through Earth to its core and chucked the one from the apple.,one,3.45,1.77,0.19
+COURT,COURT,0.63,,IP,The attorneys argued the case in the court and the tennis player volleyed on one.,one,2.02,1.18,0.13
+CRANE,CRANE,0.31,,IP,At the wetlands we spotted a crane and the cement blocks were lifted by one.,one,1.66,1.19,0.13
+CURSE,CURSE,0.38,,IP,The boy shouted a curse and the wizard put one on us.,one,3.47,1.79,0.19
+CYCLE,CYCLE,0.18,,IP,Water evaporation is part of a cycle and the biker hopped onto one.,one,1.85,1.08,0.11
+DANISH,DANISH,0.42,,IP,My relatives are Danish and for breakfast I ate one.,one,1.94,1.04,0.11
+DECK,DECK,0.67,,IP,Cards were dealt from the deck and the sailor worked below one.,one,1.6,1.01,0.11
+DEED,DEED,0.21,,IP,The boy scout performed a deed and the property owner received his.,his,2,1.17,0.13
+DEGREE,DEGREE,0.42,,IP,The temperature rose a degree and the biology major pursued one.,one,1.47,0.91,0.1
+DIET,DIET,0.4,,IP,She lost weight on her diet and eliminated gluten from it.,it,5.8,1.44,0.15
+DIFFERENCE,DIFFERENCE,0.54,,IP,Subtracting two numbers gave her the difference and there was a notable one in her face after surgery.,one,3.22,1.67,0.18
+DIP,DIP,0.54,,IP,At the river they took a dip and at the potluck they sampled one.,one,1.86,1.19,0.13
+DRAFT,DRAFT,0.55,,IP,The English major finished the draft and the football player entered one.,one,1.64,1.03,0.11
+DRILL,DRILL,0.33,,IP,The soldiers took part in a drill and the carpenter used one to tighten screws.,one,1.74,1.34,0.14
+DRINK,DRINK,0.59,,IP,The kids ran to the fountain for a drink and the man at the bar ordered one.,one,5.06,1.61,0.17
+DROP,DROPS,0.52,,IP,My cell phone survived several drops and the rainstorm began with a few.,few,2.17,1.44,0.15
+DRUMSTICK,DRUMSTICKS,0.23,,IP,The percussionist played with drumsticks and the Thanksgiving guest ate some.,some,1.73,1.12,0.12
+FAT,FAT,0.64,,IP,The professional athlete had no fat and the Greek yogurt didn't have any either.,any,4.53,1.6,0.17
+FAULT,FAULT,0.19,,IP,The court determined the fault and the earthquake centered on one.,one,1.72,1.12,0.12
+FORTUNE,FORTUNE,0.48,,IP,The millionaire made his fortune and the oracle told me mine.,mine,2.58,1.79,0.19
+FUNCTION,FUNCTION,0.24,,IP,The decorative drawings had no function but the algebra problem was calculated using one.,one,2.24,1.45,0.15
+FUR,FUR,0.59,,IP,The pet groomer combed the fur and the runway model wore one.,one,4.59,1.53,0.16
+GEAR,GEAR,0.02,,IP,The driver shifted the gear and the backpacker unpacked his.,his,1.91,1.37,0.15
+GOAL,GOAL,0.17,,IP,The football player scored a goal and the student with straight A's met hers.,hers,3.3,1.61,0.17
+GRACE,GRACE,0.45,,IP,The Catholic family began meals with grace and the ballerina danced with it.,it,1.75,1.06,0.11
+GUIDE,GUIDE,0.64,,IP,We thumbed the pages of our guide and the tour was led by one.,one,3.28,1.58,0.17
+INTRODUCTION,INTRODUCTION,0.12,,IP,The book began with an introduction but the couple met without one.,one,4.09,1.73,0.18
+IRON,IRON,0.52,,IP,The prospector mined the iron and the maid unplugged it.,it,1.74,1.06,0.11
+ISSUE,ISSUES,0.54,,IP,That bookstore carried several issues and the mental patients had lots of them.,them,1.91,1.52,0.16
+JINGLE,JINGLE,0.55,,IP,On Christmas Eve we heard a jingle and the one on the commercial was catchy.,one,5.33,1.69,0.18
+LACE,LACE,0.5,,IP,Her gown was trimmed with lace and I reached for my shoe to tie mine.,mine,2.28,1.24,0.13
+LORD,LORD,0.05,,IP,The countess curtsied to the lord and the church goers prayed to theirs.,theirs,3.19,1.94,0.21
+MONITOR,MONITOR,0.45,,IP,The graphics were displayed on a monitor and the students were supervised by one.,one,2.05,1.33,0.14
+MUSIC,MUSIC,0.37,,IP,She loved to listen to music and that was her major.,that,5.74,1.24,0.13
+NAIL,NAIL,0.58,,IP,She chipped a nail and he hammered one.,one,1.72,1.16,0.12
+ODD,ODD,0.48,,IP,"All the numbers were odd and the scientists were odd, too.",odd,1.98,1.28,0.14
+OIL,OIL,0.38,,IP,"The engine needed some oil and the salad needed some, too.",some,2.92,1.52,0.16
+OPENING,OPENING,0.21,,IP,Visitors entered through an opening and the films' stars attended one.,one,2.77,1.49,0.16
+OPERATION,OPERATION,0.54,,IP,The Coast Guard initiated the operation and the surgeons performed one.,one,3.56,1.6,0.17
+ORDER,ORDER,0.44,,IP,The waitress wrote down the order and the army sergeant gave one.,one,3.56,1.65,0.18
+PANEL,PANEL,0.61,,IP,"Indicator lights were on the panel and several experts in the field were on one, too.",one,2.43,1.42,0.15
+PASSAGE,PASSAGE,0.37,,IP,Each student read aloud a passage and the tourists walked along one.,one,1.6,0.93,0.1
+PIPE,PIPE,0.66,,IP,The smoker pulled out a pipe and the plumber replaced one.,one,2.34,1.33,0.14
+REACTION,REACTION,0.31,,IP,"The photographer captured the child's reaction and the chemist monitored one, too.",one,2.9,1.41,0.15
+RESERVATION,RESERVATION,0.62,,IP,The luxury hotel confirmed the reservation and the Navajo tribe lived on one.,one,1.94,1.29,0.14
+REVIEW,REVIEW,0.33,,IP,The critic wrote the review and before finals the undergrads attended one.,one,2.99,1.47,0.16
+RULER,RULER,0.7,,IP,The country is governed by a ruler and the line measured with one.,one,1.44,0.92,0.1
+SCENE,SCENE,0.27,,IP,The Broadway actors rehearsed the scene and the firemen raced to one.,one,3.25,1.56,0.17
+SHEET,SHEET,0.08,,IP,The student wrote something on the sheet and the maid laundered one.,one,2.11,1.22,0.13
+SOLUTION,SOLUTION,0.53,,IP,The chemists mixed up a solution and the teachers arrived at one.,one,2.15,1.22,0.13
+SPEAKER,SPEAKER,0.19,,IP,The stereo system was missing a speaker and the conference organizers scheduled one.,one,2.38,1.35,0.14
+STEP,STEPS,0.42,,IP,The baby took several steps and the grandmother slowly climbed some.,some,3.91,1.85,0.2
+STRAW,STRAW,0.43,,IP,The patient sucked water through the straw and the horse nestled in some.,some,1.59,0.88,0.09
+STRINGS,STRINGS,0.25,,IP,The orchestra featured some strings and the puppeteers pulled several.,several,3.32,1.62,0.17
+SUN,SUN,0.46,,IP,I calculated the distance to the sun and felt it on my arm.,it,5.38,1.64,0.17
+TARGET,TARGET,0.41,,IP,Her arrow hit the target and my mom shops at one.,one,1.76,1.01,0.11
+TRIP,TRIP,0.5,,IP,The adventurous travelers took a trip and my sprained ankle was caused by one.,one,1.86,1.31,0.14
+VESSEL,VESSEL,0.65,,IP,His stroke occurred from a ruptured vessel and the ship's captain steered one.,one,1.6,1.15,0.12
+VOLUME,VOLUME,0.65,,IP,We asked the DJ to increase the volume and for the geometric figure we calculated it.,it,1.61,0.98,0.1
+WATCH,WATCH,0.37,,IP,The guard kept a watch and the businessman wore one.,one,2.32,1.59,0.17
+WEED,WEED,0.52,,IP,They used a bong to smoke the weed and the gardener stooped to pull one.,one,2.34,1.28,0.14
+BACK,BACK,0.22,,RP,Extra boxes are stored in the back and I got a tattoo on mine.,mine,2.35,1.24,0.13
+BAG,BAG,0.76,,RP,My brother carried a bag of Cheetos and I ate the whole thing.,whole thing,6.22,1.35,0.14
+BASKETBALL,BASKETBALL,0.67,,RP,My brother dribbled the basketball and I watched some on TV.,some,5.03,1.5,0.16
+BEATLES,BEATLES,0.03,,RP,My grandmother met the Beatles and I listened to them.,them,6.44,1.09,0.12
+BEETHOVEN,BEETHOVEN,0.64,,RP,The classical pianist performed Beethoven and owned some music annotated by him.,him,6.22,1.08,0.11
+BOOK,BOOK,0.23,,RP,She was completely absorbed by the book and flipped its pages.,its,6.69,0.91,0.1
+BOTTLE,BOTTLE,0.2,,RP,The man drank a bottle and his friend smashed one.,one,6.19,0.99,0.11
+BRIEFCASE,BRIEFCASE,0.64,,RP,He carried his briefcase and she organized hers.,hers,6.38,1.1,0.12
+BUCKET,BUCKET,0.22,,RP,The maid poured a bucket and the kids carried one.,one,5.59,1.51,0.16
+CABBAGE,CABBAGE,0.48,,RP,The gardener grew cabbage and the children ate some.,some,6.47,1.17,0.13
+CARTON,CARTON,0.2,,RP,The guy smoked a whole carton and warning labels covered it.,it,5.63,1.85,0.2
+CAULDRON,CAULDRON,0.65,,RP,We emptied the cauldron and others lifted one.,one,5.44,1.81,0.19
+CEDAR,CEDAR,0.58,,RP,Hikers tramped through the cedar and carpenters use it for closets.,it,4.51,1.81,0.19
+CHICKEN,CHICKEN,0.72,,RP,The chicken clucked and it smelled delicious.,it,5.17,1.6,0.17
+CHIMNEY,CHIMNEY,0.76,,RP,Santa slid down our neighbor's chimney and owls perched on ours.,ours,6.43,1,0.11
+CHINESE,CHINESE,0.52,,RP,The restaurant's cuisine was Chinese and it was also my first language.,it,4.6,1.55,0.17
+CHURCH,CHURCH,0.59,,RP,A decree was announced by the church and a bell hung in another.,another,5.2,1.72,0.18
+CORAL,CORAL,0.64,,RP,"The clothing racks were full of coral and the Australian reef had a lot, too.",a lot,2.49,1.6,0.17
+COTTON,COTTON,0.49,,RP,The fashion designer stitched the cotton and the migrant workers picked it.,it,5.63,1.45,0.15
+CREAM,CREAM,Not normed,Not available,RP,We painted the room cream and I drank my coffee with some.,some,2.51,1.43,0.15
+CUP,CUP,0.45,,RP,The customer drank a cup and the artist painted one.,one,4.81,1.8,0.19
+DOOR,DOOR,0.26,,RP,The student walked through the door and someone knocked on it.,it,6.5,1.17,0.13
+EGGS,EGGS,0.73,,RP,For breakfast I ate several eggs and the turtle laid some.,some,5.13,1.46,0.16
+ELVIS,ELVIS,0.6,,RP,I am related to Elvis and the radio station plays him quite a bit.,him,6.11,1.16,0.12
+EMERALD,EMERALD,0.57,,RP,The paint color was emerald and the ring was set with one.,one,3.91,1.4,0.15
+FISH,FISH,0.74,,RP,They snorkeled with some fish and ate some for dinner.,some,6.19,1.07,0.11
+FLASK,FLASK,Not normed,Not available,RP,The skier guzzled a flask and my brother dropped his.,his,5.1,1.79,0.19
+GATE,GATE,0.44,,RP,My dad repainted the gate and my ball rolled through it.,it,6.23,1.39,0.15
+GERMAN,GERMAN,0.5,,RP,My ancestors are German and that is what they mostly speak.,that,5.31,1.41,0.15
+HEART,HEART,0.6,,RP,There was a medical problem with his heart and for Valentine's we decorated one.,one,3.56,1.53,0.16
+HEMINGWAY,HEMINGWAY,0.44,,RP,Our class read Hemingway and we met his grandchildren.,his,5.69,1.52,0.16
+HIP-HOP,HIP-HOP,0.43,,RP,The young dance students prefer hip-hop and musicians like to perform it.,it,6.27,1.09,0.12
+HIROSHIMA,HIROSHIMA,0.42,,RP,"Tokyo is larger than Hiroshima, and the explosion was larger than it, too.",it,5.25,1.66,0.18
+HOLLYWOOD,HOLLYWOOD,0.53,,RP,"The vice cop hated Hollywood and the foreign director hated it, too.",it,5.86,1.42,0.15
+HOSPITAL,HOSPITAL,0.01,,RP,"There was a call from the hospital, and we drove to it.",it,6.48,0.95,0.1
+IRAQ,IRAQ,0.51,,RP,The politicians discussed Iraq and the travelers walked its border.,its,6.03,1.12,0.12
+IVORY,IVORY,0.64,,RP,The room was painted ivory and the knife was carved from it.,it,3.02,1.51,0.16
+JADE,JADE,0.35,,RP,"The color of the room was jade and her jewelry was set with some, too.",some,4.03,1.58,0.17
+JAPANESE,JAPANESE,0.27,,RP,They dined out on Japanese and his best friend is Japanese.,japanese,4.82,1.56,0.17
+JUG,JUG,0.59,,RP,He poured a jug and she lifted one.,one,5.5,1.63,0.17
+KEG,KEG,0.35,,RP,The frat boys drank a keg and the other guys lifted one.,one,5.65,1.55,0.16
+KOREAN,KOREAN,0.73,,RP,"Her favorite cuisine was Korean, and most of her friends were Korean.",korean,5.17,1.46,0.16
+LAMB,LAMB,0.67,,RP,The farmer fed the lamb and the diners ate some.,some,6,1.21,0.13
+LAVENDER,LAVENDER,0.4,,RP,She painted the room lavender and they enjoyed its scent.,its,3.63,1.58,0.17
+LIBRARY,LIBRARY,0.31,,RP,Their uncle read the entire library and the structural engineer toured it.,it,5.02,1.74,0.19
+LILAC,LILAC,Not normed,Not available,RP,The bedroom was lilac and the flower gardens smelled strongly of it.,it,3.93,1.62,0.17
+LOBSTER,LOBSTER,0.04,,RP,The fisherman caught a lobster and for dinner we ate one.,one,6.49,1.12,0.12
+MAPLE,MAPLE,0.55,,RP,We love the flavor of maple and the contractor appreciates its hardness.,its,2.9,1.74,0.19
+MARBLE,MARBLE,0.28,,RP,The stone cutter selected the marble and the kitten played with one.,one,2.25,1.38,0.15
+MEDITERRANEAN,MEDITERRANEAN,0.5,,RP,The diners opted for Mediterranean and we vacationed there.,there,4.15,1.58,0.17
+MEXICAN,MEXICAN,0.18,,RP,"Her family is Mexican and the food is Mexican, too.",mexican,5.55,1.19,0.13
+MISSISSIPPI,MISSISSIPPI,0.03,,RP,My cousins live in Mississippi and I once canoed it.,it,4.03,1.69,0.18
+NAVY,NAVY,0.68,,RP,My brother joined the navy and my car was that color.,that,1.57,1.03,0.11
+OAK,OAK,0.47,,RP,He cut some branches from the oak and the woodworker sanded some.,some,5.78,1.38,0.15
+ORANGE,ORANGE,0.53,,RP,Her jacket was orange and she peeled herself one.,one,2.7,1.58,0.17
+PALACE,PALACE,0.12,,RP,A statement was issued by the palace and roads were closed near it.,it,5.6,1.61,0.17
+PENTAGON,PENTAGON,0.08,,RP,The vice admiral visited the Pentagon and the geometry student drew one.,one,2.69,1.57,0.17
+PICASSO,PICASSO,0.52,,RP,The museum collected Picasso and I once met his granddaughter.,his,5.5,1.42,0.15
+PRISON,PRISON,0.07,,RP,The uniform was issued by the prison and a criminal tunneled through it.,it,5.44,1.71,0.18
+PYRAMID,PYRAMID,0.64,,RP,Tourists rode camels to a pyramid and sophomores calculated one's volume.,one's,3.82,1.82,0.19
+RECIPE,RECIPE,Not normed,Not available,RP,The housewife cooked the recipe and the kids tasted it.,it,5.86,1.42,0.15
+RUBY,RUBY,0.24,,RP,Her hair was ruby and there was one in her engagement ring.,one,3.28,1.52,0.16
+SHAKESPEARE,SHAKESPEARE,0.62,,RP,Her favorite poetry was Shakespeare and he was a distant relative.,he,5.56,1.49,0.16
+SILVER,SILVER,Not normed,Not available,RP,Her dress was silver and the coin was made of it.,it,3.59,1.51,0.16
+SPANISH,SPANISH,0.37,,RP,My grandmother is Spanish and it is her native language.,it,5.22,1.55,0.17
+STARBUCKS,STARBUCKS,0.63,,RP,"The woman drank Starbucks and worked there, too.",there,5.89,1.25,0.13
+TAN,TAN,Not normed,Not available,RP,The paint she picked was tan and in the summer she always gets one.,one,3.63,1.56,0.17
+TEASPOON,TEASPOON,0.16,,RP,She ate a teaspoon and polished one.,one,3.53,1.63,0.17
+TELEVISION,TELEVISION,0.71,,RP,I set the little cactus on the television and then watched some.,some,5.78,1.38,0.15
+TUNA,TUNA,0.18,,RP,The fisherman caught some tuna and we ate some for lunch.,some,6.4,0.88,0.09
+TUNNEL,TUNNEL,Not normed,Not available,RP,We drove through the tunnel and engineers built it with steel.,it,6.42,1,0.11
+TURQUOISE,TURQUOISE,0.72,,RP,The red didn't coordinate with turquoise but the jewelry was inlaid with it.,it,4.35,1.68,0.18
+UNIVERSITY,UNIVERSITY,0.58,,RP,The policy was implemented by the university and ivy covered it.,it,4.24,2.08,0.22
+VASE,VASE,Not normed,Not available,RP,The florist arranged the vase and a sculptor carved it.,it,5.52,1.57,0.17
+VATICAN,VATICAN,0.05,,RP,Representatives were sent by the Vatican and murals covered it.,it,4.83,1.85,0.2
+VIETNAM,VIETNAM,0.6,,RP,My uncle protested Vietnam and my sister vacationed there.,there,5.14,1.76,0.19
+VIOLET,VIOLET,0.63,,RP,The florist chose violets and the paint store carried a range of them.,them,3.85,1.68,0.18
+WHISTLE,WHISTLE,0.37,,RP,The tea kettle let out a whistle and the assault victim carried one.,one,3.32,1.65,0.18
+WINDOW,WINDOW,0.41,,RP,The janitor wiped down the window and a breeze blew through it.,it,6.42,1.12,0.12
+WOOL,WOOL,0.45,,RP,The ranchers sheared the wool and the laundry service dry cleaned it.,it,4.79,1.71,0.18
+ACROBATS,ACROBATS,NA,,UA,At the circus we watched the acrobats and at the gym we met them.,them,6.24,1.41,0.15
+ANKLE,ANKLE,NA,,UA,Tom got a tattoo on his ankle and the soccer player twisted his.,his,6.57,1.01,0.11
+ASPIRIN,ASPIRIN,NA,,UA,The doctor prescribed aspirin and I always keep some handy.,some,6.7,0.61,0.06
+AUNT,AUNT,NA,,UA,I stayed with my aunt and received a gift from her.,her,6.66,0.96,0.1
+AUTUMN,AUTUMN,NA,,UA,The kids returned to school in autumn and there were several storms then.,then,6,1.42,0.15
+BASEMENT,BASEMENT,NA,,UA,Our laundry is in the basement and there is flooding there.,there,6.66,0.76,0.08
+BEACH,BEACH,NA,,UA,I walked on the beach and tourists flocked there.,there,6.52,0.82,0.09
+BEGGARS,BEGGARS,NA,,UA,The streets were filled with beggars and we gave coins to some of them.,them,6.67,0.99,0.11
+BRACELET,BRACELET,NA,,UA,She wore a bracelet and received one as a gift.,one,6.52,1.01,0.11
+CANOE,CANOE,NA,,UA,We drifted in a canoe and the museum displayed one.,one,5.61,1.71,0.18
+CIDER,CIDER,NA,,UA,The waitress brought some cider and we drank some.,some,6.76,0.69,0.07
+CIGARETTES,CIGARETTES,NA,,UA,My mom hates the smell of cigarettes and my father quit smoking them.,them,6.85,0.44,0.05
+COCKROACHES,COCKROACHES,NA,,UA,We spotted cockroaches at night and the exterminator killed some.,some,6.77,0.64,0.07
+COFFIN,COFFIN,NA,,UA,They chose a pine coffin and the pall bearers carried one.,one,5.38,1.98,0.21
+CORPSE,CORPSE,NA,,UA,The search party found a corpse and the medical examiner uncovered one.,one,6.42,1.16,0.12
+COTTAGE,COTTAGE,NA,,UA,The honeymooners rented the cottage and we walked near there.,there,6.13,1.25,0.13
+CUBA,CUBA,NA,,UA,He bought cigars in Cuba and they smoked some.,some,6.75,0.73,0.08
+DAD,DAD,NA,,UA,The car was purchased by my dad and I introduced my friends to him.,him,6.61,1,0.11
+DANDRUFF,DANDRUFF,NA,,UA,My curls hide my dandruff and the shampoo helps with it.,it,6.44,1.19,0.13
+DAUGHTER,DAUGHTER,NA,,UA,The college accepted my daughter and my sister cradled hers.,hers,5.81,1.6,0.17
+DAYLIGHT,DAYLIGHT,NA,,UA,The model looked different in the daylight and vampires avoid it.,it,5.93,1.59,0.17
+DENTIST,DENTIST,NA,,UA,He was studying to be a dentist and I made an appointment with one.,one,6.24,1.34,0.14
+DEW,DEW,NA,,UA,The cobweb glistened in the dew and my shoes got wet from it.,it,6.26,1.19,0.13
+DOZEN,DOZEN,NA,,UA,The baker selected a dozen and the car collector purchased a dozen.,dozen,5.32,1.79,0.19
+DUCHESS,DUCHESS,NA,,UA,Dignitaries greeted the duchess and photos were taken of her.,her,6.61,0.93,0.1
+DUSK,DUSK,NA,,UA,The surveyors quit working at dusk and the light was beautiful then.,then,6.35,1.17,0.12
+DYE,DYE,NA,,UA,At Easter they bought some dye and the hair colorist also used some.,some,5.73,1.13,0.12
+EARTHWORMS,EARTHWORMS,NA,,UA,The fisherman grabbed some earthworms and the gardens benefited from them.,them,6.17,1.3,0.14
+EASEL,EASEL,NA,,UA,The painter set up an easel and the poster rested on one.,one,5.88,1.65,0.18
+ELVES,ELVES,NA,,UA,Santa was assisted by the elves and wizards are respected by them.,them,5.2,1.7,0.18
+FIREPLACE,FIREPLACE,NA,,UA,The dog rested by a fireplace and the kids roasted marshmallows in one.,one,6.56,0.87,0.09
+FLEAS,FLEAS,NA,,UA,My dog has fleas and we spotted some.,some,6.49,1.06,0.11
+FOREHEAD,FOREHEAD,NA,,UA,The nurse felt my forehead and my mom kissed it.,it,6.52,1.23,0.13
+FROWN,FROWN,NA,,UA,"The circus clown had a frown and the unhappy man had one, too.",one,6.57,0.98,0.11
+FURNACE,FURNACE,NA,,UA,He was near the furnace and the service technician inspected it.,it,5.98,1.57,0.17
+GALLONS,GALLONS,NA,,UA,The attendant pumped a few gallons and the athletes drank a few.,a few,4.49,1.86,0.2
+GLACIER,GLACIER,NA,,UA,The satellite monitored the glacier and the hikers scrambled across it.,it,5.61,1.69,0.18
+GRANDFATHER,GRANDFATHER,NA,,UA,The advertisement featured a grandfather and Roger is one now.,one,6.11,1.47,0.16
+GRANDMOTHER,GRANDMOTHER,NA,,UA,The locket belonged to her grandmother and the girl dearly loved her.,her,6.8,0.68,0.07
+HAMSTER,HAMSTER,NA,,UA,The kids fed one hamster and everyone searched for the other.,the other,6.11,1.36,0.14
+HATCHET,HATCHET,NA,,UA,The woodsman used the hatchet and our neighbor borrowed it.,it,6.45,0.95,0.1
+HAY,HAY,NA,,UA,The farmer pitched the hay and the horses slept on it.,it,6.4,1.22,0.13
+HELMET,HELMET,NA,,UA,For safety I grabbed a helmet and the other biker wore one.,one,6.66,0.86,0.09
+HEXAGON,HEXAGON,NA,,UA,Six sides formed a hexagon and the student traced one.,one,6.39,1.1,0.12
+HIGHWAY,HIGHWAY,NA,,UA,The semi truck exited the highway and trees were planted along it.,it,6.32,1.31,0.14
+HOE,HOE,NA,,UA,She grabbed a hoe and chopped weeds with it.,it,6.43,1.28,0.14
+HOSTAGE,HOSTAGE,NA,,UA,They took a hostage and wanted ransom for him.,him,6.55,1.13,0.12
+ICICLE,ICICLE,NA,,UA,I bumped into the icicle and water dripped from it.,it,6.41,1.21,0.13
+IGLOO,IGLOO,NA,,UA,Neighbor kids built an igloo and Eskimos lived in one.,one,6.27,0.93,0.1
+INFANT,INFANT,NA,,UA,Their child was an infant and the other couple adopted one.,one,6.44,1.21,0.13
+IVY,IVY,NA,,UA,The buildings were covered in ivy and tall elms grew in it.,it,5.41,1.7,0.18
+JANITOR,JANITOR,NA,,UA,Trash was emptied by the janitor and the school fired him.,him,6.65,0.82,0.09
+JEEP,JEEP,NA,,UA,Soldiers piled into the jeep and the teenager crashed one.,one,6.19,1.23,0.13
+JUGGLER,JUGGLER,NA,,UA,The talent show began with a juggler and for the party they hired one.,one,6.34,1.27,0.14
+KITTEN,KITTEN,NA,,UA,The young children gently stroked the kitten and we heard its meow.,its,6.69,0.82,0.09
+LEATHER,LEATHER,NA,,UA,Her pants were made from leather and we couldn't distinguish it from vinyl.,it,5.59,1.82,0.19
+LEMONADE,LEMONADE,NA,,UA,The kids were selling some lemonade and we sat and drank some.,some,6.72,0.8,0.09
+LUNGS,LUNGS,NA,,UA,A deep breath inflated his lungs and doctors found cancer in them.,them,6.51,0.95,0.1
+MATTRESS,MATTRESS,NA,,UA,He lay down on the mattress and kids jumped on it.,it,6.55,1.18,0.13
+MEADOW,MEADOW,NA,,UA,The landscape painting depicted a meadow and we picked flowers in one.,one,6.48,1.03,0.11
+MEASLES,MEASLES,NA,,UA,I have the symptoms of measles but there is little chance of them.,them,6,1.63,0.17
+MERMAID,MERMAID,NA,,UA,The story was about a mermaid and the girl swam like one.,one,6.41,0.92,0.1
+MIDNIGHT,MIDNIGHT,NA,,UA,The boys snuck out at midnight and it was pitch black then.,then,6.43,1.12,0.12
+MONK,MONK,NA,,UA,The prayer service was led by a monk and I led the quiet life of one.,one,5.75,1.42,0.15
+MORGUE,MORGUE,NA,,UA,The doctor mostly worked in the morgue and bodies were examined there.,there,6.6,1.1,0.12
+MOSQUITOS,MOSQUITOS,NA,,UA,The nets kept away the mosquitos and I killed several of them.,them,6.73,0.66,0.07
+MOSS,MOSS,NA,,UA,The stones were covered in moss and tiny mushrooms grew out of it.,it,6.14,1.36,0.14
+MOTHS,MOTHS,NA,,UA,In the closet were several moths and the outdoor light attracted them.,them,6.35,1.37,0.15
+MYTH,MYTH,NA,,UA,The story was just a myth and Zeus is described in one.,one,6.1,1.27,0.14
+NECKLACE,NECKLACE,NA,,UA,My grandma left me a necklace and my earrings matched it.,it,6.49,1.27,0.14
+NIGHTGOWN,NIGHTGOWN,NA,,UA,My aunt was still in her nightgown and was freezing in it.,it,6.4,1.26,0.13
+NOMADS,NOMADS,NA,,UA,The oasis was settled by nomads and the college students wandered like them.,them,5.43,1.51,0.16
+NOON,NOON,NA,,UA,The campus bells chimed at noon and we met for lunch then.,then,6.53,1.07,0.11
+OAR,OAR,NA,,UA,On his wall hung an oar and the rower paddled with one.,one,5.8,1.69,0.18
+OCEAN,OCEAN,NA,,UA,We could smell the ocean and our room overlooks it.,it,6.53,1.02,0.11
+OWL,OWL,NA,,UA,We heard the hoot of an owl and a mouse was killed by it.,it,6.61,1.01,0.11
+PIGEONS,PIGEONS,NA,,UA,Messages were carried by the pigeons and a homeless man fed them.,them,6.31,1.27,0.14
+SANDALS,SANDALS,NA,,UA,The tourist bought sandals and she wore them.,them,6.85,0.7,0.08
+TULIPS,TULIPS,NA,,UA,She grows all kinds of tulips and arranged a bouquet of them.,them,6.5,1.16,0.12
+WIG,WIG,NA,,UA,In the portrait Washington wore a wig and for Halloween I will wear one.,one,6.28,1.46,0.16
