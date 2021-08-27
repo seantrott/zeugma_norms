@@ -112,14 +112,11 @@ def get_wordpiece_embeddings(og_index, tt, token_embeddings):
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 ### Load models
-BERT_MODEL = ['bert-base-uncased', 'bert-large-uncased']
+BERT_MODEL = ['bert-base-uncased']
 model = BertModel.from_pretrained(BERT_MODEL[0],
                                   output_hidden_states = True, # Whether the model returns all hidden-states.
                                   )
 model.eval()
-
-
-
 
 
 ### Code for iterating through stims

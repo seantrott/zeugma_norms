@@ -36,7 +36,7 @@ First, we load the data with summary statistics about each item. We also load th
 
 ```{r}
 ### Set working directory (comment this out to run)
-# setwd("/Users/seantrott/Dropbox/UCSD/Research/Ambiguity/SSD/norming_kutas/src/analysis")
+# setwd("/Users/seantrott/Dropbox/UCSD/Research/Ambiguity/SSD/zeugma_norms/src/analysis")
 
 ### Load norming data
 df_normed = read_csv("../../data/raw/similarity.csv")
@@ -244,8 +244,6 @@ nrow(df_merged)
 
 ## Does Ambiguity Type predict surprisal?
 
-
-**TODO**: Maybe mix in dominance score?
 
 ```{r}
 df_merged %>%
