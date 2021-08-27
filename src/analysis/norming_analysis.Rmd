@@ -1,0 +1,328 @@
+---
+title: "Computational analysis of norming data"
+author: "Katherine DeLong, Sean Trott, and Marta Kutas"
+date: "June 28, 2021"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    # code_folding: hide
+  pdf_document: default
+  word_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE , dpi=300)
+```
+
+
+```{r include=FALSE}
+library(tidyverse)
+library(lme4)
+library(ggridges)
+library(broom.mixed)
+library(lmerTest)
+```
+
+
+# Part 1: Cosine Distance
+
+This document contains analyses of BERT cosine distances on zeugmatic sentences with ambiguous words, and compares those distances to human similarity judgments.
+
+## Load data
+
+First, we load the data with summary statistics about each item. We also load the BERT cosine distances.
+
+```{r}
+### Set working directory (comment this out to run)
+# setwd("/Users/seantrott/Dropbox/UCSD/Research/Ambiguity/SSD/norming_kutas/src/analysis")
+
+### Load norming data
+df_normed = read_csv("../../data/raw/similarity.csv")
+nrow(df_normed)
+df_normed = df_normed %>%
+  mutate(word = tolower(CW))
+
+### Load BERT distances
+df_bert = read_csv("../../data/processed/distances.csv") %>%
+  select(-X1)
+nrow(df_bert)
+
+```
+
+We then merge them together:
+
+```{r}
+df_merged = df_normed %>%
+  inner_join(df_bert, by = c('word', 'Similarity Norming Category')) %>%
+  mutate(ambiguity_type = `Similarity Norming Category`,
+         sim = `Similarity Mean`)
+nrow(df_merged)
+```
+
+
+## Does Ambiguity Type predict cosine distance?
+
+We know that the similarity scores reflect the underlying **Ambiguity Type**.
+
+```{r}
+df_merged %>%
+  ggplot(aes(x = ambiguity_type,
+             y = sim,
+             fill = ambiguity_type)) +
+  geom_boxplot() +
+  labs(x = "Ambiguity Type",
+       y = "Similarity Judgment",
+       fill = "Ambiguity Type") +
+  theme_minimal()
+
+df_merged %>%
+  ggplot(aes(x = sim,
+             y = ambiguity_type,
+             fill = ambiguity_type)) +
+  geom_density_ridges2(aes(height = ..density..), 
+                       color=gray(0.25), 
+                       alpha = 0.5, 
+                       scale=0.85, 
+                       size=.9, 
+                       stat="density") +
+  labs(x = "Similarity Judgment",
+       y = "Ambiguity type") +
+  theme_minimal()
+
+```
+
+However, this effect seems considerably weaker for the cosine distance measures:
+
+```{r}
+
+df_merged %>%
+  ggplot(aes(x = ambiguity_type,
+             y = distance_bert_large_hf_layer_12,
+             fill = ambiguity_type)) +
+  geom_boxplot() +
+  labs(x = "Ambiguity Type",
+       y = "Cosine Distance (Final Layer)",
+       fill = "Ambiguity Type") +
+  theme_minimal()
+
+df_merged %>%
+  ggplot(aes(x = distance_bert_large_hf_layer_12,
+             y = ambiguity_type,
+             fill = ambiguity_type)) +
+  geom_density_ridges2(aes(height = ..density..), 
+                       color=gray(0.25), 
+                       alpha = 0.5, 
+                       scale=0.85, 
+                       size=.9, 
+                       stat="density") +
+  labs(x = "Cosine Distance (Final Layer)",
+       y = "Ambiguity type",
+       fill = "Ambiguity Type") +
+  theme_minimal()
+
+
+```
+
+
+We find that a model predicting `Distance (Final layer)` with `Ambiguity Type`, and a random intercept for `Anaphora`, explains more variance than a model with only the random intercept.
+
+```{r}
+model_full = lmer(data = df_merged,
+                  distance_bert_large_hf_layer_12 ~ ambiguity_type + (1 | Anaphora),
+                REML = FALSE)
+
+model_reduced = lmer(data = df_merged,
+                  distance_bert_large_hf_layer_12 ~ (1 | Anaphora),
+                REML = FALSE)
+
+summary(model_full)
+anova(model_full, model_reduced)
+
+
+df_merged %>%
+  group_by(ambiguity_type) %>%
+  summarise(mean_distance = mean(distance_bert_large_hf_layer_12),
+            sd_distance = sd(distance_bert_large_hf_layer_12))
+```
+
+
+
+
+## Does cosine distance predict similarity?
+
+Here, we correlate `cosine distance` with `similarity judgments`, and analyze this across all layers of BERT.
+
+```{r}
+df_all_layers = data.frame()
+for (layer in 1:12) {
+  
+  col_name = paste("distance_bert_large_hf_layer", layer, sep="_") 
+  col = df_merged[[col_name]]
+  
+  r = cor.test(col, df_merged$sim)
+  
+  df_r = broom::tidy(r)
+  df_r$layer = layer
+  
+  df_all_layers = rbind(df_all_layers, df_r)
+  
+}
+
+df_all_layers %>%
+  ggplot(aes(x = layer,
+             y = estimate)) +
+  geom_line() +
+  geom_errorbar(aes(ymin = conf.high, 
+                    ymax = conf.low), 
+                width=.2,
+                position=position_dodge(.9)) +
+  labs(x = "Layer",
+       y = "Correlation between distance and similarity") +
+  theme_minimal() +
+  theme(axis.title = element_text(size=rel(2)),
+        axis.text = element_text(size = rel(2)),
+        legend.text = element_text(size = rel(2)),
+        legend.title = element_text(size = rel(2)))
+
+ggsave("../../Figures/r_layers.png", dpi = 300)
+
+df_all_layers %>%
+  filter(estimate == min(df_all_layers$estimate))
+
+
+## Now view layer
+df_merged %>%
+  ggplot(aes(x = distance_bert_large_hf_layer_12,
+             y = sim,
+             color = ambiguity_type,
+             shape = ambiguity_type)) +
+  geom_point(alpha = .6, size = 2) +
+  labs(x = "Cosine Distance",
+       y = "Similarity Judgment",
+       color = "Ambiguity Type",
+       shape = "Ambiguity Type") +
+  theme_minimal() 
+  
+```
+
+We also asked whether `Distance (Layer 12)` improves a model above and beyond `ambiguity type`.
+```{r}
+model_full = lmer(data = df_merged,
+                  sim ~ ambiguity_type + distance_bert_large_hf_layer_12 + (1 | Anaphora),
+                  REML = FALSE)
+
+model_reduced = lmer(data = df_merged,
+                  sim ~ ambiguity_type  + (1 | Anaphora),
+                  REML = FALSE)
+
+summary(model_full)
+anova(model_full, model_reduced)
+
+```
+
+
+# Part 2: Surprisal on anaphoric word
+
+Here, we used a masked langauge modeling task to measure the probability of observing the anaphoric word in that position. This is meant to approximate measures of a subject's experience of encountering that anaphoric word, such as `RT` or the `N400 effect`.
+
+## Load data
+
+```{r}
+df_surprisal = read_csv("../../data/processed/surprisals.csv")
+nrow(df_surprisal)
+
+df_merged = df_merged %>%
+  inner_join(df_surprisal, by = c('word', 'Similarity Norming Category')) %>%
+  mutate(surprisal = -log(probability))
+
+nrow(df_merged)
+
+```
+
+
+## Does Ambiguity Type predict surprisal?
+
+
+**TODO**: Maybe mix in dominance score?
+
+```{r}
+df_merged %>%
+  ggplot(aes(x = surprisal,
+             y = ambiguity_type,
+             fill = ambiguity_type)) +
+  geom_density_ridges2(aes(height = ..density..), 
+                       color=gray(0.25), 
+                       alpha = 0.5, 
+                       scale=0.85, 
+                       size=.9, 
+                       stat="density") +
+  labs(x = "Surprisal of Masked Word",
+       y = "Ambiguity type",
+       fill = "Ambiguity Type") +
+  theme_minimal() +
+  theme(axis.title = element_text(size=rel(2)),
+        axis.text = element_text(size = rel(2)),
+        legend.text = element_text(size = rel(2)),
+        legend.title = element_text(size = rel(2)))
+
+ggsave("../../Figures/surprisal_condition.png", dpi = 300)
+
+
+model_full = lmer(data = df_merged,
+                  surprisal ~ ambiguity_type + (1 | Anaphora),
+                REML = FALSE)
+
+model_reduced = lmer(data = df_merged,
+                  surprisal ~ (1 | Anaphora),
+                REML = FALSE)
+
+summary(model_full)
+anova(model_full, model_reduced)
+
+
+df_merged %>%
+  group_by(ambiguity_type) %>%
+  summarise(mean_surprisal = mean(surprisal),
+            sd_surprisal = sd(surprisal))
+
+```
+
+
+## Does surprisal predict similarity ratings beyond Ambiguity Type?
+
+We also asked whether the `surprisal` of the anaphoric word was predictive of `similarity` above and beyond the `ambiguity type` category, and found that it was.
+
+```{r}
+model_full = lmer(data = df_merged,
+                  sim ~ surprisal + ambiguity_type + (1 | Anaphora),
+                REML = FALSE)
+
+model_reduced = lmer(data = df_merged,
+                  sim ~ ambiguity_type + (1 | Anaphora),
+                REML = FALSE)
+
+summary(model_full)
+anova(model_full, model_reduced)
+
+df_merged %>%
+  ggplot(aes(x = surprisal,
+             y = sim,
+             color = ambiguity_type,
+             shape = ambiguity_type)) +
+  geom_point(alpha = .6, size = 2) +
+  labs(x = "Surprisal of Masked Word",
+       y = "Similarity Judgment",
+       color = "Ambiguity Type",
+       shape = "Ambiguity Type") +
+  theme_minimal() 
+
+
+cor.test(df_merged$surprisal, df_merged$sim)
+
+
+```
+
+
+
