@@ -44,5 +44,8 @@ Alternatively, some pakcages (`pandas`, `scipy`, etc.) are available through [An
 The analysis of BERT `surprisal` (and `cosine distance`) is included in `src/analysis/norming_analysis.Rmd`. This file can be "knit" into an `.html` file using RStudio; we've also already included the compiled/knit `.html` file for viewing.
 
 
+## Contact
+
+If you have any questions about the data (or supplementary analyses), please contact Sean Trott: sttrott at ucsd dot edu.
 
 
